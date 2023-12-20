@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yuki-denaku
+    name: yuki-calculator
     env: python
     region: Oregon
     plan: free
