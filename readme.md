@@ -10,8 +10,8 @@ cookieにyuki=Trueを設定すると認証されます。<br>
 <ol>
 <li>githubアカウントを作成する</li>
 <li>リポジトリを作る(名前はなんでもいい)(プライベートリポジトリにすることをおすすめします)</li>
-<li>import codeを押して https://github.com/mochidukiyukimi/Yuki-Youtube-slim/ と入力</li>
+<li>import codeを押して https://github.com/Suzuka8993/Yuki-YouTube-slim-calculator と入力</li>
 <li>render.yamlを開いて編集(鉛筆のマーク)を押し、nameの横のyuki-youtube-slimをサイトのurlの最初の部分にしたい文字列に変更する。(yuki-yだったらurlはhttps://yuki-y.onrender.comになる)</li>
 <li>Deploy to renderボタンを押し、Service Group Nameに適当な文字列を入れてapply(事前にrenderのアカウントを作っておく)</li>
 </ol>
-  <a href="https://render.com/deploy?repo=https://github.com/mochidukiyukimi/Yuki-Youtube-slim-2"><img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"></a><br>
+  <a href="https://render.com/deploy?repo=https://github.com/Suzuka8993/Yuki-YouTube-slim-calculator"><img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"></a><br>
