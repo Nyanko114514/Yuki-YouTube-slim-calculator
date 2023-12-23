@@ -9,7 +9,7 @@ cookieにyuki=Trueを設定すると認証されます。<br>
 1~4の作業をやらないと、自動でURLがyuki-calculator-[4桁の英数字].onrender.comになります。<br>
 <ol>
 <li>githubアカウントを作成する</li>
-<li>リポジトリを作る(名前はなんでもいい)(プライベートリポジトリにすることをおすすめします)</li>
+<li>リポジトリを作る(名前はなんでもよい)(プライベートリポジトリ推奨)</li>
 <li>import codeを押して https://github.com/Suzuka8993/Yuki-YouTube-slim-calculator と入力</li>
 <li>render.yamlを開いて編集(鉛筆のマーク)を押し、nameの横のyuki-calculatorをサイトのurlの最初の部分にしたい文字列に変更する。(yuki-1だったらurlはhttps://yuki-1.onrender.comになる)</li>
 <li>Deploy to renderボタンを押し、Service Group Nameに適当な文字列を入れてapply(事前にrenderのアカウントを作っておく)</li>
