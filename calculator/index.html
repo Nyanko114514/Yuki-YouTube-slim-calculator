@@ -47,6 +47,12 @@
             document.getElementById("calculatorForm").value = currentValue.slice(0, -1);
         }
   
+function calculateSquareRoot() {
+            var inputValue = document.getElementById("calculatorForm").value;
+            var result = Math.sqrt(eval(inputValue));
+            document.getElementById("calculatorForm").value = result;
+        }
+    
     function calculate() {
         var inputValue = document.getElementById("calculatorForm").value;
         // Replace 'π' and 'e' with their numeric values
@@ -103,6 +109,7 @@
     <button type="button" onclick="addToInput('(');">&#40;</button>
     <button type="button" onclick="addToInput(')');">&#41;</button>
     <button type="button" onclick="addToInput('π');">π</button>
+    <button type="button" onclick="calculateSquareRoot();">√</button>
   </form>
 </div>
 <border><b>&copy; 2023 Y</b></border>
